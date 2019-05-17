@@ -2,15 +2,19 @@ header{
     color: black;
     font-size: 10px;
     line-height: 10px;
-    text-align: right;
+    position: absolute;
+    top: 0%;
+    left: 90%;
     width: 75%;
 }
 h1{
     color: black;
-    font-size: 50px;
-    line-height: 50px;
-    text-align: left;
-    width: 100px;
+    position: relative;
+    top: 250px;
+    font-size: 70px;
+   font-weight: bold;
+   font-family: 'raleway';
+   margin: 0- auto;
 }
 h2{
     color: rgba(21, 218, 201, 0.815);
@@ -18,25 +22,35 @@ h2{
     line-height: 20px;
     text-align: left; 
     width: 400px;
+    margin: 0- auto;
+    position: relative;
+    top: 265px;
 }
 h3{
     color:rgba(21, 218, 201, 0.815);
     font-size: 20px;
     line-height: 20px;
     text-align: left;
+    margin: 0- auto;
     width: 400px;
+    position: relative;
+    top: 275px;
 }
 p{
     color: black;
     font-size: 10px;
     line-height: 10px;
     text-align: left; 
+    margin: 0- auto;
+    position: relative;
+    top: 260px;
 }
 body{
-    width: 800PX;
+    width: 75%;
     background-image: url("emilia-about.jpg");
     width: 70%;
-    background-position: right;
+    background-position: top right;
     background-repeat: no-repeat;
+    font-family: sans-serif;
 
 }
