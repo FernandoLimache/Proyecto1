@@ -1,0 +1,37 @@
+header {
+    background-color: black;
+    color: white;
+    font-size: 28px;
+    border-block-color: red;
+    border-bottom: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+section{
+    width: 50%;
+    margin-left: 25%;
+    background-color: gainsboro;
+    margin-bottom: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    border-block-color: black;
+    border-block-style: dashed;
+    border: 2px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+footer{
+    background-color: black;
+    color: white;
+    border-block-color: red;
+    border-top: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: 40px;
+    box-sizing: border-box;
+}

@@ -1,0 +1,24 @@
+header{
+    width: 80%;
+    margin: 0 auto;
+    background-color: orange;
+    padding: 5px;
+}
+footer{
+    width: 70%;
+    margin: 0 auto;
+    background-color: violet;
+    padding:  5px;
+}
+
+article{
+    width: 20%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    background-color: green;
+    box-sizing: border-box;
+    float: left;
+}
+section{
+    overflow: hidden;
+}
