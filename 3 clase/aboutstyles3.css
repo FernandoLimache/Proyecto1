@@ -1,11 +1,18 @@
-header{
-    color: black;
-    font-size: 10px;
-    line-height: 10px;
+*{
+    box-sizing: border-box;
+}
+nav{
     position: absolute;
-    top: 0%;
-    left: 90%;
-    width: 75%;
+    color: #ffffff;
+    width: 98%;
+    border-block-color: black;
+    height: 50px;
+    margin: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    line-height: 0;
+    font-size: 10px;
 }
 h1{
     color: black;
@@ -46,11 +53,14 @@ p{
     top: 260px;
 }
 body{
-    width: 75%;
     background-image: url("emilia-about.jpg");
-    width: 70%;
+    height: cover;
+    width: cover;
     background-position: top right;
     background-repeat: no-repeat;
-    font-family: sans-serif;
+ 
+}
 
+ul{
+    float: right;
 }
