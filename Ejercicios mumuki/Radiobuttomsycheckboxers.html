@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularios</title>
+</head>
+<body>
+<form action="index.html">
+    <p>
+        <label for="nombre">Nombre:</label>
+        <input id="nombre" type="text" name="nombre" value="" placeholder="Escriba su nombre aqui">
+    </p>
+    <p>
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email" value="" required>
+    </p>
+    <p>
+        <label for="pass">Contrasena</label>
+        <input id="pass" type="password" name="pass" value="">
+    </p>
+    <p>
+        <label for="cine">Ya asistio al cine este año?</label>
+        <br>
+        <input type="radio" name="cine" value="s"> Si
+        <br>
+        <input type="radio" name="cine" value="n"> No
+        <br>
+    </p>
+    <p>
+        <label for="genero">Seleccione sus generos preferidos</label>
+        <br>
+        <input type="checkbox" name="genero" value="d" checked>Drama
+        <br>
+        <input type="checkbox" name="genero" value="c">Comedia
+        <br>
+        <input type="checkbox" name="genero" value="a">Aventura
+        <br>
+        <input type="checkbox" name="genero" value="t">Terror
+        <br>
+    </p>
+    <p>
+        <input type="submit" value="Enviar">
+    </p>
+</form>
+
+    
+</body>
+</html>
