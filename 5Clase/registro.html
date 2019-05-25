@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="css/homebarra.css">
+    <link rel="stylesheet" href="css/login.css">
+  </head>
+  <body>
+    <header class="A">
+        <section class="A2">
+            <div id="A21"><a href="Home.html"><img src="img/logo.png" alt="Celulares"></a></div>
+            <div id="A20"><a href="#B" style="color: white ; text-decoration:none">SMARTPHONES</a></div>
+            <div id="A20">TABLETS</div>
+            <div id="A20">COMPUTADORAS</div>
+        </section>
+        <section class="A3">
+            <div id="A30"><a href="login.html" style="color: white ; text-decoration:none">LOGIN</a></div>
+            <div id="A30"><a href="registro.html" style="color: white ; text-decoration:none">REGISTRO</a></div>
+        </section>
+    </header>
+    <main>
+      <form class="" action="index.html" method="post">
+        <h1 class="D10">REGISTRATE</h1>
+
+        <label for="nombre">Nombre</label>
+        <input class="D20" type="text" name="nombre" value="" placeholder="Fernando Limache" required>
+        <p class="D30">Obligatorio.</p>
+
+        <label for="email">Email</label>
+        <input class="D20" type="text" name="email" value="" placeholder="Email" required>
+        <p class="D30">Obligatorio.</p>
+
+        <label for="psw">Contraseña</label>
+        <input class="D20" type="password" name="psw" value="" placeholder="********" required>
+        <p class="D30">Obligatorio.</p>
+
+        <label for="pais"><h2>País de Nacimiento</h2></label>
+        <select class="" name="pais">
+        <option value="argentina">Peru</option>
+          <option value="argentina">Argentina</option>
+          <option value="brazil">Brazil</option>
+          <option value="chile">Chile</option>
+          <option value="uruguay">Uruguay</option>
+
+        </select>
+
+        <label for="genero"><h2>Género</h2></label>
+        <input type="radio" name="genero" value="masculino">Masculino
+        <input type="radio" name="genero" value="femenino">Femenino
+        <input type="radio" name="genero" value="na">Otros
+
+        <label for="hobbies"><h2>Hobbies</h2></label>
+        <input type="checkbox" name="hobbies" value="guitarra">Guitarra
+        <input type="checkbox" name="hobbies" value="futbol">Fútbol
+        <input type="checkbox" name="hobbies" value="tenis">Tenis
+        <input type="checkbox" name="hobbies" value="programacion">Programación
+
+        <label for="comentarios"><h2>Dejanos tus comentarios</h2></label>
+        <textarea name="comentarios" rows="9" cols="90"></textarea>
+        <br>
+        <br>
+        <input type="checkbox" name="condiciones" value="acepto" required>Acepto los términos y condiciones.
+        <br>
+        <br>
+        <button class="D40" type="submit" name="registrarme">Registrame</button>
+        <button class="D40" type="button" name="cancelar">Cancelar</button>
+        <br>
+        <br>
+        <br>
+
+      </form>
+
+    </main>
+
+  </body>
+</html>
