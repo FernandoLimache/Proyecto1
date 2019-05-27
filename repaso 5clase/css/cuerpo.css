@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+main{
+    box-sizing: border-box;
+    font-family: 'Open Sans';
+    font-size: 2vmin;
+    width: 100vw;
+    padding-left: 7vw;
+    position: relative;
+    top: 70px;
+    overflow: hidden;
+}
+body{
+    background-color: rgb(164, 238, 243);
+}
+.B{
+    float: left;
+    width: 55vw;
+    background: white;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+    .B1{
+        float: left;
+        width: 25vw;
+        padding: 0.5vw 0.5vw;
+        margin: 0.5vw 0.5vw;
+       text-align: justify;
+        
+    }
+    .C{
+        float: right;
+        width: 34vw;
+        background: white;
+        background-color: rgb(164, 238, 243);
+        padding-left: 0;
+        padding-right: 4vw;
+        padding-bottom: 0px;
+        padding-top: 0px;
+        
+    }
+    #B10{
+        width: 330vw;
+        height: 200px;
+  
+    }
+
+    #B11{
+        font-weight: bold;
+        margin: 0px 0px;
+        padding: 10px 10px;
+    }
+
+    #B13{
+        background-color: red;
+        color: white;
+        padding: 10px 10px;
+        margin: 10px 10px;
+        width: 70px;
+        cursor: pointer;
+      
+    }
+    #C111{
+        float: left;
+        padding: 0px 5px;
+    }
+    #C112{
+        font-size: 2vmin;
+        font-weight: bold;
+        padding: 20px 15px;
+        margin: 20px 20px;
+        word-wrap: break-word;
+    }
+    #C11{
+        overflow: hidden;
+        padding: 10px 10px;
+        margin: 10px 10px;
+        width: 300px;
+        height: 100px;
+        background-color: white;
+    }
+    #C10{
+        font-size: 2vmin;
+        padding: 10px 10px;
+        margin: 10px 10px;
+        width: 300px;
+        height: 30px;
+        font-weight: bold;
+        background-color:white;
+    
+    }
+    #C12{
+        padding: 10px 10px;
+        margin: 10px 10px;
+    }
+    
