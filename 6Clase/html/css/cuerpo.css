@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+.product{
+float: left;
+width: 100%;
+margin-top: 12px;
+margin-bottom: 12px;
+}
+.vip-products{
+    overflow: hidden;
+    font-family: 'Open Sans';
+    margin-top: 12px;
+}
+.photo-container{
+    position: relative;
+}
+
+.more{
+    background-color:gray;
+    color: white;
+    width: 70px;
+    cursor: pointer;
+}
+
+.product .photo-container .photo{
+    width: 100%;
+}
+.product .photo-container .special{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.product .photo-container .zoom{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 10;
+}
+
+.zoom{
+    display: block;
+    background-color: rgba(0,0,0,.3) ;
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 50px;
+    font-family:'Open Sans';
+    margin: 1px;
+    width: 100%;
+}
+
+.more{
+    display: block;
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 48px;
+    width: 80px;
+    font-family:'Open Sans';
+    margin: 1px;
+}
+
+.product h2{
+    font-family: 'Open Sans';
+    font-size: 1.5em;
+}
+
+.product p{
+    font-family: 'Open Sans';
+    font-size: 1em;
+    text-align: justify;
+}

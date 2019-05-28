@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+*{
+    box-sizing: border-box;}
+
+.banner img{
+    width: 100%;
+}
