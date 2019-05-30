@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
-*{
+header{
     box-sizing: border-box;
 }
 
 body{
     padding: 15px;
+}
+
+.main-nav ul{
+    text-align: center;
+    padding-inline-start: 0;
 }
 
 nav ul {
@@ -46,10 +51,46 @@ margin:0 auto 15px;
     margin: 1px;
 }
 
-ul li{
+.main-nav ul li{
     list-style: none;
 }
 
 .main-nav ul li a:hover{
-    background-color: aliceblue;
+    background-color: rgba(240, 248, 255, 0.692);
+    color: black;
+}
+
+
+@media screen and (min-width: 600px){
+    .main-nav ul li a{
+        display: inline-block;
+        background-color:gray;
+        font-size: 0.6em;
+        padding:0;
+        width: 12.5vw;
+        height: 5.5vh;
+        margin: 5px 5px 15px;
+        
+    }
+    .main-nav ul li{
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    .main-nav ul li a{
+        display: inline-block;
+        background-color: gray;
+        font-size: 1em;
+        padding:0;
+        width: 14vw;
+        height: 8vh;
+        margin: 10px 10px 15px;
+        
+    }
+    .main-nav ul li{
+        display: inline-block;
+    }
+   
+
 }

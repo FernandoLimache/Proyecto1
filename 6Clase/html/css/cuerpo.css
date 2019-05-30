@@ -79,3 +79,27 @@ margin-bottom: 12px;
     font-size: 1em;
     text-align: justify;
 }
+
+@media screen and (min-width: 600px){
+    .product{
+        width: 49%;
+        margin-right: 0.5%;
+        margin-left: 0.5%
+    }
+    .vip-products{
+        margin: 0;
+        padding: 0;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .product{
+        width: 32.7%;
+        margin-right: 0.315%;
+        margin-left: 0.315%
+    }
+    .vip-products{
+        margin: 0;
+        padding: 0;
+    }
+}
