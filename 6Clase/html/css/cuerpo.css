@@ -80,7 +80,7 @@ margin-bottom: 12px;
     text-align: justify;
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 768px){
     .product{
         width: 49%;
         margin-right: 0.5%;
@@ -92,9 +92,9 @@ margin-bottom: 12px;
     }
 }
 
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 1224px){
     .product{
-        width: 32.7%;
+        width: 32.6%;
         margin-right: 0.315%;
         margin-left: 0.315%
     }
