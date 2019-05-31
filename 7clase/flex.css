@@ -1,0 +1,35 @@
+*{box-sizing: border-box}
+.caja{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    margin: 10px 10px 10px 10px;
+    padding: 40px 15px;
+    border-radius: 12px;
+    border: 2.5px solid black;
+    color: whitesmoke;
+    font-size: 1.4em;
+
+
+}
+
+.flex{
+    background-color: green;
+    margin-top: 10VH;
+    margin-bottom: 10VH;
+    border-radius: 12px;
+    min-height: 80vh;
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+body{
+    background-color: gray;
+}
+
+.caja .caja-friday{
+    order: 1
+}

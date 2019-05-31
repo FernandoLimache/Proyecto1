@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+background-color: blanchedalmond;
+}
+body{
+    background-color: #745546;
+    margin-top: 24px;
+}
+.container-fluid{
+    background-color: aquamarine;
+}
+.col-sm{
+    background-color: black;
+    color: white;
+}
