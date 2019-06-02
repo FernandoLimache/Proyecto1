@@ -1,29 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 *{
-    box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'Open Sans';
+  margin: 0;
+  padding: 0;
 }
-body{
-    background-image: url()
-}
-.container{
+
+
+.container {
     display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-}
-.card{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-}
-.container .card{
-    width: 50%;
-    background-color: blue;
-}
-.container .card .card-image img{
-    width: 100%;
-}
-.container .card .card-image{
-    width: 50%;
-}
-.container .card .card-data{
-    width: 50%;
-}       
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url(../images/bg-body.png);
+ 
+ }
+ 
+ .card {
+   background-color: white;
+   margin: 1%;
+   padding: 10px;
+   border: 0.25px solid gray;
+   display: flex;
+   flex-wrap: wrap;
+ 
+ }
+ 
+ /* Fotos */
+ .card-image img {
+   width: 200px;
+   display: block;
+   border-radius: 200px;
+ }
+ 
+ /* Redes Sociales */
+ .card-image .social-media {
+   font-size: 20px;
+   background-color: gray;
+   padding: 10px;
+   margin: 2px;
+ }
+ 
+ .card-image .social-media li {
+   display: inline-block;
+ }
+ 
+ .card-image .social-media li a {
+   text-decoration: none;
+   width: 10px;
+ }
+ 
+ /* Texto Nombre */
+ .card-data h2 {
+   font-size: 1.5em;
+   padding: 10px;
+ }
+ 
+ /* Texto Lorem ipsum */
+ .card-data p {
+   font-size: 0.9em;
+   width: 370px;
+   padding: 10px;
+   margin-bottom: 10px;
+ 
+ }
+ 
+ /* Boton de Ver mas */
+ .card-data a {
+   padding: 10px;
+   background-color: gray;
+   color: white;
+   text-decoration: none;
+ }
